@@ -1,8 +1,11 @@
 {
-  "name": "easydiscord",
-  "version": "2.0.0",
-  "description": "A framework to easily create discord bot",
+  "name": "discordeasy",
+  "version": "1.0.0",
+  "description": "A \"framework\" for discord !",
   "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
   "dependencies": {
     "discord.js": "^11.3.2"
   },
@@ -19,7 +22,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sebastien-Ahkrin/ahk-framework.git"
+    "url": "git+https://github.com/Sebastien-Ahkrin/easydiscord.git"
   },
   "keywords": [
     "Discord",
@@ -30,7 +33,7 @@
   "author": "Sebastien Ahkrin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Sebastien-Ahkrin/ahk-framework/issues"
+    "url": "https://github.com/Sebastien-Ahkrin/easydiscord/issues"
   },
-  "homepage": "https://github.com/Sebastien-Ahkrin/ahk-framework#readme"
+  "homepage": "https://github.com/Sebastien-Ahkrin/easydiscord#readme"
 }
