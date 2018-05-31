@@ -5,7 +5,7 @@
 ## Install
 
 ```bash
-npm install ahkframework
+npm install easydiscord
 ```
 
 ## Usage
@@ -50,8 +50,8 @@ class Ahk extends Bot {
 new Ahk()
 ```
 
-For more informations about "permissions" see [HERE](http://discordjs.readthedocs.io/en/latest/docs_permissionconstants.html)
-Source code on github : [HERE](https://github.com/Sebastien-Ahkrin/ahk-framework)
+For more informations about "permissions" see [HERE](https://discordapp.com/developers/docs/topics/permissions)
+Source code on github : [HERE](https://github.com/Sebastien-Ahkrin/easydiscord)
 
 ## License
 
