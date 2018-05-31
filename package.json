@@ -20,8 +20,7 @@
     "rimraf": "^2.6.2"
   },
   "scripts": {
-    "build": "rimraf lib && babel src -d lib",
-    "start-dev": "babel-node test/index.js"
+    "build": "rimraf lib && babel src -d lib"
   },
   "repository": {
     "type": "git",
