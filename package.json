@@ -1,28 +1,26 @@
 {
   "name": "easydiscord",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A \"framework\" for discord !",
-  "main": "src/index.js",
-  "directories": {
-    "example": "example"
-  },
+  "main": "lib",
+  "files": [
+    "lib",
+    "LICENSE",
+    "README.md"
+  ],
   "dependencies": {
-    "discord.js": "^11.3.2",
-    "@babel/cli": "^7.0.0-beta.47",
-    "@babel/core": "^7.0.0-beta.47",
-    "@babel/plugin-proposal-decorators": "^7.0.0-beta.47",
-    "@babel/preset-env": "^7.0.0-beta.47",
-    "@babel/node": "^7.0.0-beta.49"
+    "discord.js": "^11.3.2"
   },
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.47",
     "@babel/core": "^7.0.0-beta.47",
     "@babel/plugin-proposal-decorators": "^7.0.0-beta.47",
     "@babel/preset-env": "^7.0.0-beta.47",
-    "@babel/node": "^7.0.0-beta.49"
+    "@babel/node": "^7.0.0-beta.49",
+    "rimraf": "^2.6.2"
   },
   "scripts": {
-    "dev": "node test/index.js",
+    "build": "rimraf lib && babel src -d lib",
     "start-dev": "babel-node test/index.js"
   },
   "repository": {
