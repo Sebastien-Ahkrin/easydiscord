@@ -24,7 +24,7 @@ export default class Bot {
   }
 
   addEvent (event, callback) {
-    client.on(event, callback)
+    client.on(event, callback(client))
   }
 
   addCommand (regex, callback, options) {
