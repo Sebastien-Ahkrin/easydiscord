@@ -1,4 +1,4 @@
-import { Bot, Config, Login, Event, Command } from '../src/'
+import { Bot, Config, Login, Event, Command, Commands } from '../src/'
 
 const prefix = "$"
 
@@ -9,6 +9,7 @@ const prefix = "$"
   icon_path: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/000080_Navy_Blue_Square.svg/2000px-000080_Navy_Blue_Square.svg.png",
   presence: { name: prefix + "help" }
 })
+@Commands([  ])
 class Ahk extends Bot {
 
   @Login('token')
