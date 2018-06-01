@@ -1,6 +1,6 @@
 {
   "name": "easydiscord",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "A \"framework\" for discord !",
   "main": "lib",
   "files": [
