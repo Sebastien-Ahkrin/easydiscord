@@ -9,16 +9,16 @@ const prefix = "$"
   icon_path: "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/000080_Navy_Blue_Square.svg/2000px-000080_Navy_Blue_Square.svg.png",
   presence: { name: prefix + "help" }
 })
-@Commands([  ])
 class Ahk extends Bot {
 
   @Login('token')
   login ({ id }) {
-    console.log("Connected")
+    console.log("Connected" + id)
   }
 
   @Event('ready')
-  ready () {
+  ready (client) {
+    console.log(client)
     console.log('I\'m ready !')
   }
 

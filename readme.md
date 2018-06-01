@@ -30,7 +30,7 @@ class Ahk extends Bot {
   }
 
   @Event('ready')
-  ready () {
+  ready (client) {
     console.log('I\'m ready !')
   }
 
