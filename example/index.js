@@ -29,7 +29,7 @@ class Ahk extends Bot {
       client: []
     }
   })
-  helpCommand (command, message) {
+  helpCommand (command, channel, args) {
     message.reply('Hi')
   }
 

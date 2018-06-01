@@ -45,7 +45,7 @@ export default class Bot {
       cmd.toLowerCase().match(command.regex)
     ).forEach(command => {
       if(this.permissions(command, message)){
-        command.callback(command, message)
+        command.callback(command, message.channel, args)
       }
     })
 
