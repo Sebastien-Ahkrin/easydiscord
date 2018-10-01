@@ -5,7 +5,7 @@
 ## Install
 
 ```bash
-sudo apt install npm
+sudo apt install nodejs npm
 npm install easydiscord
 ```
 
